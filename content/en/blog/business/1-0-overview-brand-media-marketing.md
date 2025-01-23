@@ -18,10 +18,15 @@ weight: 1
 - Create project issue
 - Print entire section
 
-2. 如何增加blog 或docs页面中的文章分类，例如：
+2. 如何增加blog 或docs页面中的文章分类，
+
+我在blog下增加一个分类 business，中文/英文版本中都有该分类。 
+ 
+源库中目录分类例如：
 /blog/news/ 分类目录名为 news，/blog/releases/ 分类目录名为 releases
 
 /docs/tutorials/ 分类目录名为 tutorials， /docs/tasks/ponycopters/ 有2-3级目录，分类目录名为 tasks/和 ponycopters/，ponycopters/目录中才是文章。
+
 
 
 # 1. Overview: Brand,Media,Marketing
