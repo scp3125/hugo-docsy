@@ -10,8 +10,15 @@ bug：
 
 1. 前端页面显示，头信息和正文之间没有空格？样式需要调整到合适状态，而且第一个标题 # Creating a Single Page on Hugo 丢失了 ？
 
-2. 中文内容在目录zh中，但是导航上没有中文语言切换项；
+A:可以使用markdown语法加空格，标题并未丢失，markdown空格可以用 `&nbsp;` 
 
+1. 中文内容在目录zh中，但是导航上没有中文语言切换项；
+
+A:修改配置文件，已解决
+
+&nbsp;
+&nbsp;
+&nbsp;
 
 # Creating a Single Page on Hugo
 

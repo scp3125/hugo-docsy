@@ -18,16 +18,20 @@ weight: 1
 - Create project issue
 - Print entire section
 
-2. 如何增加blog 或docs页面中的文章分类，
+A：修改配置解决了
+
+1. 如何增加blog 或docs页面中的文章分类，
 
 我在blog下增加一个分类 business，中文/英文版本中都有该分类。 
+
+A：目录下需要有_index.md文件，填好里面的内容就能显示
  
 源库中目录分类例如：
 /blog/news/ 分类目录名为 news，/blog/releases/ 分类目录名为 releases
 
 /docs/tutorials/ 分类目录名为 tutorials， /docs/tasks/ponycopters/ 有2-3级目录，分类目录名为 tasks/和 ponycopters/，ponycopters/目录中才是文章。
 
-
+A:这个按照当前的文件夹结构就行，不需要额外的配置，如果某一层不想有文章，该文件夹下不需要有md文件就行，但是需要有_index.md文件
 
 # 1. Overview: Brand,Media,Marketing
 
@@ -63,11 +67,11 @@ since then, ordinary people can start from 0 and quickly enter into regular mark
 
 [https://www.forrester.com/blogs/09-12-16-defining_earned_owned_and_paid_media/](https://www.forrester.com/blogs/09-12-16-defining_earned_owned_and_paid_media/)
 
-|  |  | **词性** | **涵盖范围** | **受众对象** | **比喻** | **周期** |  | **主要工作** |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 上游（核心） | **品牌** | 名词 | 企业形象识别 | 所有人：员工、客户、潜在受众 | 目标，战略、骨架、精神、操作系统 | 永恒长效、长线投资、见效慢 | 抽象概念、纯纸面工作 | 设计品牌、制定策略、心智定位、塑造身份 |
-| 中游（中层） | **传媒** | 名词-动词 | 媒体、广告、公关 | 客户、潜在受众 | 过程、技巧、血肉、身体、物理硬件 | 持续运作、 | 具体物理媒介 | 执行策略，获取公众关注和认知度 |
-| 下游（外围） | **营销** | 动词 | 市场、销售 | 客户 | 策略，战术、妆容、行为、应用软件 | 变化快、暂时短效、短线操作，见效快 | 行为活动 | 落实策略、推广商品和服务、扩大品牌 |
+|              |          | **词性**  | **涵盖范围**     | **受众对象**                 | **比喻**                         | **周期**                           |                      | **主要工作**                           |
+| ------------ | -------- | --------- | ---------------- | ---------------------------- | -------------------------------- | ---------------------------------- | -------------------- | -------------------------------------- |
+| 上游（核心） | **品牌** | 名词      | 企业形象识别     | 所有人：员工、客户、潜在受众 | 目标，战略、骨架、精神、操作系统 | 永恒长效、长线投资、见效慢         | 抽象概念、纯纸面工作 | 设计品牌、制定策略、心智定位、塑造身份 |
+| 中游（中层） | **传媒** | 名词-动词 | 媒体、广告、公关 | 客户、潜在受众               | 过程、技巧、血肉、身体、物理硬件 | 持续运作、                         | 具体物理媒介         | 执行策略，获取公众关注和认知度         |
+| 下游（外围） | **营销** | 动词      | 市场、销售       | 客户                         | 策略，战术、妆容、行为、应用软件 | 变化快、暂时短效、短线操作，见效快 | 行为活动             | 落实策略、推广商品和服务、扩大品牌     |
 
 Marketing can be a great way to get a customer’s attention, but branding is a great way to keep their attention.
 
@@ -137,9 +141,9 @@ Mckinsey Branding
 
 **Differences between Media & Marketing**
 
-| **Good marketing** | **Good media** |
-| --- | --- |
-| **Objectives:** Brand Awareness, Consumer Activation, Acquisition & Conversion
+| **Good marketing**                                                             | **Good media** |
+| ------------------------------------------------------------------------------ | -------------- |
+| **Objectives:** Brand Awareness, Consumer Activation, Acquisition & Conversion |
 1. Coherence in visual/creative concept is of essence - distinctive and with a spoken purpose that holds true to legacy and objectives of the company.
 2. Multimedia combining mass communication platforms with targeted ads.
 3. Reach consumers many times - but not too many times.
@@ -152,9 +156,9 @@ Mckinsey Branding
 4. Media needs personality (entertaining), identity (how I am doing It) or aspiration (how I want to do it).
 5. Media needs to have Its own business model where it makes you money |
 
-| **Marketing formats** | **Media formats** |
-| --- | --- |
-| Ads - what sells the product
+| **Marketing formats**        | **Media formats** |
+| ---------------------------- | ----------------- |
+| Ads - what sells the product |
 
 **Important metrics:**
 Reach/Frequency- build mental availability
@@ -184,8 +188,8 @@ Email addresses
 Phone numbers |
 
 | **Marketing Business Model** | **Media Business Model** |
-| --- | --- |
-| **Product/Service sales**		
+| ---------------------------- | ------------------------ |
+| **Product/Service sales**    |
 Profit margin on all things sold
 
 **Arbitrage Model**
