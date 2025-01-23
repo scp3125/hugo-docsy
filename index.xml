@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Goldydocs</title><link>https://scp3125.github.io/hugo-docsy/</link><description>Recent content on Goldydocs</description><generator>Hugo</generator><language>en</language><atom:link href="https://scp3125.github.io/hugo-docsy/index.xml" rel="self" type="application/rss+xml"/><item><title>1.0 Overview, Brand,Media,Marketing</title><link>https://scp3125.github.io/hugo-docsy/blog/2020/06/08/1.0-overview-brandmediamarketing/</link><pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/blog/2020/06/08/1.0-overview-brandmediamarketing/</guid><description>&lt;p>提问：&lt;/p>
+&lt;ol>
+&lt;li>如何去除页面右上方的github库相关信息？这些是多余的内容，具体如下：&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>View page source&lt;/li>
+&lt;li>Edit this page&lt;/li>
+&lt;li>Create child page&lt;/li>
+&lt;li>Create documentation issue&lt;/li>
+&lt;li>Create project issue&lt;/li>
+&lt;li>Print entire section&lt;/li>
+&lt;/ul>
+&lt;p>A：修改配置解决了&lt;/p>
+&lt;ol>
+&lt;li>如何增加blog 或docs页面中的文章分类，&lt;/li>
+&lt;/ol>
+&lt;p>我在blog下增加一个分类 business，中文/英文版本中都有该分类。&lt;/p>
+&lt;p>A：目录下需要有_index.md文件，填好里面的内容就能显示&lt;/p>
+&lt;p>源库中目录分类例如：
+/blog/news/ 分类目录名为 news，/blog/releases/ 分类目录名为 releases&lt;/p>
+&lt;p>/docs/tutorials/ 分类目录名为 tutorials， /docs/tasks/ponycopters/ 有2-3级目录，分类目录名为 tasks/和 ponycopters/，ponycopters/目录中才是文章。&lt;/p>
+&lt;p>A:这个按照当前的文件夹结构就行，不需要额外的配置，如果某一层不想有文章，该文件夹下不需要有md文件就行，但是需要有_index.md文件&lt;/p>
+&lt;h1 id="1-overview-brandmediamarketing">1. Overview: Brand,Media,Marketing&lt;a class="td-heading-self-link" href="#1-overview-brandmediamarketing" aria-label="Heading self-link">&lt;/a>&lt;/h1>
+&lt;p>Date: 2020-6-8&lt;/p>
+&lt;p>&lt;strong>Overview: Brand,Media,Marketing&lt;/strong>&lt;/p>
+&lt;p>Jun 8, 2020&lt;/p>
+&lt;p>&lt;a href="1%20%E6%A6%82%E8%BF%B0%EF%BC%9A%E5%93%81%E7%89%8C%E3%80%81%E4%BC%A0%E5%AA%92%E3%80%81%E8%90%A5%E9%94%80%2043fef89d241341099e1db1ebd49fc646.md">1. 概述：品牌、传媒、营销&lt;/a>&lt;/p>
+&lt;h1 id="foreword">Foreword&lt;a class="td-heading-self-link" href="#foreword" aria-label="Heading self-link">&lt;/a>&lt;/h1>
+&lt;p>“LOGIC WILL GET YOU FROM A TO B. IMAGINATION WILL TAKE YOU EVERYWHERE.”&lt;/p></description></item><item><title>Overview</title><link>https://scp3125.github.io/hugo-docsy/docs/overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/docs/overview/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;p>This is a placeholder page that shows you how to use this template site.&lt;/p>
+
+&lt;/div>
+
+&lt;p>The Overview is where your users find out about your project. Depending on the
+size of your docset, you can have a separate overview page (like this one) or
+put your overview contents in the Documentation landing page (like in the Docsy
+User Guide).&lt;/p>
+&lt;p>Try answering these questions for your user in this page:&lt;/p>
+&lt;h2 id="what-is-it">What is it?&lt;a class="td-heading-self-link" href="#what-is-it" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>Introduce your project, including what it does or lets you do, why you would use
+it, and its primary goal (and how it achieves it). This should be similar to
+your README description, though you can go into a little more detail here if you
+want.&lt;/p></description></item><item><title>1.1 Framework, Brand- CI Design(details)</title><link>https://scp3125.github.io/hugo-docsy/blog/2020/06/08/1.1-framework-brand-ci-designdetails/</link><pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/blog/2020/06/08/1.1-framework-brand-ci-designdetails/</guid><description>&lt;h1 id="11-framework-brand--ci-designdetails">1.1 Framework: Brand- CI Design(details)&lt;a class="td-heading-self-link" href="#11-framework-brand--ci-designdetails" aria-label="Heading self-link">&lt;/a>&lt;/h1>
+&lt;p>2020-6-8&lt;/p>
+&lt;h1 id="ci">&lt;strong>CI&lt;/strong>&lt;a class="td-heading-self-link" href="#ci" aria-label="Heading self-link">&lt;/a>&lt;/h1>
+&lt;p>&lt;a href="https://en.wikipedia.org/wiki/Corporate_identity">https://en.wikipedia.org/wiki/Corporate_identity&lt;/a>&lt;/p>
+&lt;h2 id="4-principles-of-ci">&lt;strong>4 Principles of CI&lt;/strong>&lt;a class="td-heading-self-link" href="#4-principles-of-ci" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>Best practices of corporate identity, four key brand requirements are critical for a successful case.&lt;/p>
+&lt;ul>
+&lt;li>Differentiation. In today&amp;rsquo;s highly competitive market, brands need to have a clear differentiation or reason for being. What they represent needs to stand apart from others in order to be noticed, make an impression, and to ultimately be preferred.&lt;/li>
+&lt;li>Relevance. Brands need to connect to what people care about out in the world. To build demand, they need to understand and fulfil the needs and aspirations of their intended audiences.&lt;/li>
+&lt;li>Coherence. To assure credibility with their audiences, brands must be coherent in what they say and do. All the messages, all the marketing communications, all the brand experiences, and all of the product delivery need to hang together and add up to something meaningful.&lt;/li>
+&lt;li>Esteem. A brand that is differentiated, relevant and coherent is one that is valued by both its internal and external audiences. Esteem is the reputation a brand has earned by executing clearly on both its promised and delivered experience.&lt;/li>
+&lt;/ul>
+&lt;p>This questionnaire helps us to get a better sense of the client’s wants and needs before diving in. Reference: Clients requirement analysis questionnaire&lt;/p></description></item><item><title>Configuring Ponycopters</title><link>https://scp3125.github.io/hugo-docsy/docs/tasks/ponycopters/configuring-ponycopters/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/docs/tasks/ponycopters/configuring-ponycopters/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
+
+&lt;/div>
+
+&lt;p>Text can be &lt;strong>bold&lt;/strong>, &lt;em>italic&lt;/em>, or &lt;del>strikethrough&lt;/del>. &lt;a href="https://gohugo.io">Links&lt;/a> should be blue with no underlines (unless hovered over).&lt;/p>
+&lt;p>There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.&lt;/p></description></item><item><title>1.3 Framework, Marketing &amp; Sales Activities</title><link>https://scp3125.github.io/hugo-docsy/blog/2020/06/08/1.3-framework-marketing-sales-activities/</link><pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/blog/2020/06/08/1.3-framework-marketing-sales-activities/</guid><description>&lt;h1 id="13-framework-marketing--sales-activities">1.3 Framework: Marketing &amp;amp; Sales Activities&lt;a class="td-heading-self-link" href="#13-framework-marketing--sales-activities" aria-label="Heading self-link">&lt;/a>&lt;/h1>
+&lt;p>Date: June 8, 2020&lt;/p>
+&lt;p>&lt;strong>Framework: Marketing &amp;amp; Sales Activities&lt;/strong>&lt;/p>
+&lt;p>Jun 8, 2020&lt;/p>
+&lt;p>&lt;a href="1%203%20%E6%A1%86%E6%9E%B6%EF%BC%9A%E8%90%A5%E9%94%80%E6%B4%BB%E5%8A%A8%20-%20%E5%B8%82%E5%9C%BA%E5%92%8C%E9%94%80%E5%94%AE%20d8555fb157fa46a7a2ac0dc3f348e8ed.md">1.3 框架：营销活动 - 市场和销售&lt;/a>&lt;/p>
+&lt;h1 id="marketing-and-sales">&lt;strong>Marketing and Sales&lt;/strong>&lt;a class="td-heading-self-link" href="#marketing-and-sales" aria-label="Heading self-link">&lt;/a>&lt;/h1>
+&lt;p>&lt;strong>Definition&lt;/strong>&lt;/p>
+&lt;p>Marketing: informs and attracts leads and prospects to your company and product or service.&lt;/p>
+&lt;p>Sales: works directly with prospects to reinforce the value of the company&amp;rsquo;s solution to convert prospects into customers&lt;/p>
+&lt;p>&lt;strong>Relationships between Marketing and Sales&lt;/strong>&lt;/p>
+&lt;p>Common goal: to attract prospects and convert them to customers, ultimately generating revenue.&lt;/p></description></item><item><title>Examples</title><link>https://scp3125.github.io/hugo-docsy/docs/examples/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/docs/examples/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;p>This is a placeholder page that shows you how to use this template site.&lt;/p>
+
+&lt;/div>
+
+&lt;p>Do you have any example &lt;strong>applications&lt;/strong> or &lt;strong>code&lt;/strong> for your users in your repo
+or elsewhere? Link to your examples here.&lt;/p></description></item><item><title>Launching Ponycopters</title><link>https://scp3125.github.io/hugo-docsy/docs/tasks/ponycopters/launching-ponycopters/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/docs/tasks/ponycopters/launching-ponycopters/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
+
+&lt;/div>
+
+&lt;p>Text can be &lt;strong>bold&lt;/strong>, &lt;em>italic&lt;/em>, or &lt;del>strikethrough&lt;/del>. &lt;a href="https://gohugo.io">Links&lt;/a> should be blue with no underlines (unless hovered over).&lt;/p>
+&lt;p>There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.&lt;/p></description></item><item><title>Multi-Bear Domicile Setup</title><link>https://scp3125.github.io/hugo-docsy/docs/tutorials/multi-bear/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/docs/tutorials/multi-bear/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
+
+&lt;/div>
+
+&lt;p>Text can be &lt;strong>bold&lt;/strong>, &lt;em>italic&lt;/em>, or &lt;del>strikethrough&lt;/del>. &lt;a href="https://gohugo.io">Links&lt;/a> should be blue with no underlines (unless hovered over).&lt;/p>
+&lt;p>There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.&lt;/p></description></item><item><title>Concepts</title><link>https://scp3125.github.io/hugo-docsy/docs/concepts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/docs/concepts/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;p>This is a placeholder page that shows you how to use this template site.&lt;/p>
+
+&lt;/div>
+
+&lt;p>For many projects, users may not need much information beyond the information in the &lt;a href="https://scp3125.github.io/hugo-docsy/hugo-docsy/docs/overview/">Overview&lt;/a>, so this section is &lt;strong>optional&lt;/strong>. However if there are areas where your users will need a more detailed understanding of a given term or feature in order to do anything useful with your project (or to not make mistakes when using it) put that information in this section. For example, you may want to add some conceptual pages if you have a large project with many components and a complex architecture.&lt;/p></description></item><item><title>Another Tutorial</title><link>https://scp3125.github.io/hugo-docsy/docs/tutorials/tutorial2/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/docs/tutorials/tutorial2/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
+
+&lt;/div>
+
+&lt;p>Text can be &lt;strong>bold&lt;/strong>, &lt;em>italic&lt;/em>, or &lt;del>strikethrough&lt;/del>. &lt;a href="https://gohugo.io">Links&lt;/a> should be blue with no underlines (unless hovered over).&lt;/p>
+&lt;p>There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.&lt;/p></description></item><item><title>Contribution Guidelines</title><link>https://scp3125.github.io/hugo-docsy/docs/contribution-guidelines/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/docs/contribution-guidelines/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;p>These basic sample guidelines assume that your Docsy site is deployed using Netlify and your files are stored in GitHub. You can use the guidelines &amp;ldquo;as is&amp;rdquo; or adapt them with your own instructions: for example, other deployment options, information about your doc project&amp;rsquo;s file structure, project-specific review guidelines, versioning guidelines, or any other information your users might find useful when updating your site. &lt;a href="https://github.com/kubeflow/website/blob/master/README.md">Kubeflow&lt;/a> has a great example.&lt;/p>
+&lt;p>Don&amp;rsquo;t forget to link to your own doc repo rather than our example site! Also make sure users can find these guidelines from your doc repo README: either add them there and link to them from this page, add them here and link to them from the README, or include them in both locations.&lt;/p></description></item><item><title>Easy documentation with Docsy</title><link>https://scp3125.github.io/hugo-docsy/blog/2018/10/06/easy-documentation-with-docsy/</link><pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/blog/2018/10/06/easy-documentation-with-docsy/</guid><description>&lt;p>&lt;strong>This is a typical blog post that includes images.&lt;/strong>&lt;/p>
+&lt;p>The front matter specifies the date of the blog post, its title, a short description that will be displayed on the blog landing page, and its author.&lt;/p>
+&lt;h2 id="including-images">Including images&lt;a class="td-heading-self-link" href="#including-images" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>Here&amp;rsquo;s an image (&lt;code>featured-sunset-get.png&lt;/code>) that includes a byline and a caption.&lt;/p>
+&lt;figure class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 610px">
+&lt;img class="card-img-top" src="https://scp3125.github.io/hugo-docsy/hugo-docsy/blog/2018/10/06/easy-documentation-with-docsy/featured-sunset-get_hu18177156491556528792.png" width="600" height="300">
+&lt;figcaption class="card-body px-0 pt-2 pb-0">
+&lt;p class="card-text">
+
+
+Fetch and scale an image in the upcoming Hugo 0.43.
+&lt;small class="text-body-secondary">&lt;br/>Photo: Riona MacNamara / CC-BY-CA&lt;/small>
+&lt;/p></description></item><item><title>Second blog post</title><link>https://scp3125.github.io/hugo-docsy/blog/2018/10/06/second-blog-post/</link><pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/blog/2018/10/06/second-blog-post/</guid><description>&lt;p>Text can be &lt;strong>bold&lt;/strong>, &lt;em>italic&lt;/em>, or &lt;del>strikethrough&lt;/del>. &lt;a href="https://github.com">Links&lt;/a> should be blue with no underlines (unless hovered over).&lt;/p>
+&lt;p>There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.&lt;/p>
+&lt;p>There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.&lt;/p>
+&lt;blockquote>
+&lt;p>There should be no margin above this first sentence.&lt;/p></description></item><item><title>Another Great Release</title><link>https://scp3125.github.io/hugo-docsy/blog/2018/01/04/another-great-release/</link><pubDate>Thu, 04 Jan 2018 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/blog/2018/01/04/another-great-release/</guid><description>&lt;p>Text can be &lt;strong>bold&lt;/strong>, &lt;em>italic&lt;/em>, or &lt;del>strikethrough&lt;/del>. &lt;a href="https://github.com">Links&lt;/a> should be blue with no underlines (unless hovered over).&lt;/p>
+&lt;p>There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.&lt;/p>
+&lt;p>There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.&lt;/p>
+&lt;blockquote>
+&lt;p>There should be no margin above this first sentence.&lt;/p></description></item><item><title>Example Page</title><link>https://scp3125.github.io/hugo-docsy/docs/getting-started/example-page/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/docs/getting-started/example-page/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
+
+&lt;/div>
+
+&lt;p>Text can be &lt;strong>bold&lt;/strong>, &lt;em>italic&lt;/em>, or &lt;del>strikethrough&lt;/del>. &lt;a href="https://gohugo.io">Links&lt;/a> should be blue with no underlines (unless hovered over).&lt;/p>
+&lt;p>There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.&lt;/p></description></item><item><title>Parameter Reference</title><link>https://scp3125.github.io/hugo-docsy/docs/reference/parameter-reference/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/docs/reference/parameter-reference/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
+
+&lt;/div>
+
+&lt;p>Text can be &lt;strong>bold&lt;/strong>, &lt;em>italic&lt;/em>, or &lt;del>strikethrough&lt;/del>. &lt;a href="https://gohugo.io">Links&lt;/a> should be blue with no underlines (unless hovered over).&lt;/p>
+&lt;p>There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.&lt;/p></description></item><item><title>About Goldydocs</title><link>https://scp3125.github.io/hugo-docsy/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/about/</guid><description>&lt;link rel="preload" as="image" href="https://scp3125.github.io/hugo-docsy/hugo-docsy/about/featured-background_hu4003775461251110261.jpg" media="(max-width: 1200px)">
+&lt;link rel="preload" as="image" href="https://scp3125.github.io/hugo-docsy/hugo-docsy/about/featured-background_hu2312927490661001000.jpg" media="(min-width: 1200px)">
+&lt;style>
+#td-cover-block-0 {
+ background-image: url(/hugo-docsy/about/featured-background_hu4003775461251110261.jpg);
+}
+@media only screen and (min-width: 1200px) {
+ #td-cover-block-0 {
+ background-image: url(/hugo-docsy/about/featured-background_hu2312927490661001000.jpg);
+ }
+}
+&lt;/style>
+&lt;section id="td-cover-block-0" class="row td-cover-block td-cover-block--height-auto js-td-cover td-overlay td-overlay--dark -bg-dark">
+ &lt;div class="col-12">
+ &lt;div class="container td-overlay__inner">
+ &lt;div class="text-center">
+ &lt;h1 class="display-1 mt-0 mt-md-5 pb-4">About Goldydocs&lt;/h1>
+ 
+ &lt;div class="pt-3 lead">
+ 
+ &lt;p class="mt-5">A sample site using the Docsy Hugo theme.&lt;/p>
+
+ 
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ 
+&lt;/section>
+
+&lt;div>&lt;a id="td-block-1" class="td-offset-anchor">&lt;/a>&lt;/div>
+&lt;section class="row td-box td-box--1 position-relative td-box--height-auto">
+&lt;div class="col-12">
+&lt;div class="container text-center td-arrow-down">
+&lt;div class="h4 mb-0">
+&lt;p>Goldydocs is a sample site using the &lt;a href="https://github.com/google/docsy">Docsy&lt;/a>
+Hugo theme that shows what it can do and provides you with a template site
+structure. It’s designed for you to clone and edit as much as you like. See the
+different sections of the documentation and site for more ideas.&lt;/p></description></item><item><title>Search Results</title><link>https://scp3125.github.io/hugo-docsy/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/search/</guid><description/></item></channel></rss>
