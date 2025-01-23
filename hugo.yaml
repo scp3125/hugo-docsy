@@ -46,20 +46,22 @@ imaging:
 languages:
   en:
     languageName: English
-    title: Goldydocs
+    title: Coolshell Crowd source
     params:
-      description: A Docsy example site
+      description: Coolshell next one generation
   # cSpell:disable
   zh-Cn:
-    languageName: 中文
+    languageName: 中文简体
     contentDir: content/zh-cn
-    title: Gulldoks
-  'no':
-      languageName: Norsk
-      contentDir: content/no
-      title: Gulldoks
+    title: 酷壳众创
+    params:
+      description: 左耳朵耗子的酷壳下一代众创版
+  ru:
+      languageName: Русский
+      contentDir: content/ru
+      title: Coolshell
       params:
-        description: Docsy er operativsystem for skyen
+        description: Источник информации Coolshell
         time_format_default: 02.01.2006
         time_format_blog: 02.01.2006
 markup:

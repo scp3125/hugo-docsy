@@ -8,3 +8,6 @@ menu: {main: {weight: 40}}
 
 
 hugo-docsy/content/zh-cn/blog/_index.md 这个导航直接链接到另外一个博客网址 https://blog.coolshell.in/
+
+不在本站中写博客。
+

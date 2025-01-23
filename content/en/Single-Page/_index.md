@@ -3,6 +3,8 @@ title: Single-Page
 menu: {main: {weight: 40}}
 # Add blocks of content here to add more sections to the community page
 ---
+<br><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;
 
 尝试在导航栏中创建一个单页面，要求其他语言版本中也都要有。
 
