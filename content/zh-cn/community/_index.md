@@ -13,12 +13,9 @@ https://hugo-docsy.pages.dev/community/
 
 
 - 这个页面、首页和about页面中 ../zh-cn/about/ 的中间大块颜色背景的block 是通过以下这些代码控制的吗？
-```
-{.text-center}
+  
+``` {.text-center}, {{% /blocks. section %}}  ```
 
-{{% /blocks/section %}}
-
-{{% blocks/section %}}
-
-```
 但是这个community页面中的block在哪个文件中控制呢？
+
+- about, index 等网页背景图片，是否可以用外链到google drive中的图片？而不是将图片也和网页文件一起存放到源码库中。
