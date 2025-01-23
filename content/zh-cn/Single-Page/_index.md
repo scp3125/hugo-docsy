@@ -1,24 +1,19 @@
 ---
-title: 单页面
+title: Single-Page
 menu: {main: {weight: 40}}
-# 在此处添加内容块以向社区页面添加更多部分
+# Add blocks of content here to add more sections to the community page
 ---
 
-# 创建一个单页在Hugo上
+尝试在导航栏中创建一个单页面，要求其他语言版本中也都要有。
 
-Hugo是一个强大的静态网站生成器，使得创建内容丰富的网站变得容易。以下是创建Hugo单页的分步指南：
+bug：
 
-## 1. 安装Hugo
+1. 前端页面显示，头信息和正文之间没有空格？样式需要调整到合适状态，而且第一个标题 # Creating a Single Page on Hugo 丢失了 ？
 
-首先，确保你已经安装了Hugo。你可以按照[Hugo文档](https://gohugo.io/getting-started/installing/)上的安装指南进行操作。
+2. 中文内容在目录zh中，但是导航上没有中文语言切换项；
 
-## 2. 创建一个新的Hugo站点
 
-通过在终端中运行以下命令来创建一个新的Hugo站点：
-
-```sh
-hugo new site my-awesome-site
-
+# Creating a Single Page on Hugo
 
 Hugo is a powerful static site generator that makes it easy to create content-rich websites. Here’s a step-by-step guide to creating a single page on Hugo:
 
