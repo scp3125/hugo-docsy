@@ -1,6 +1,7 @@
 ---
 title: courses
 menu: {main: {weight: 30}}
+type: blog
 ---
 
 This is the **courses** section. It has two categories: News and Releases.

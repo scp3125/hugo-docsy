@@ -49,7 +49,6 @@ languages:
     title: Coolshell Crowd source
     params:
       description: Coolshell next one generation
-  # cSpell:disable
   zh-Cn:
     languageName: 中文简体
     contentDir: content/zh-cn
