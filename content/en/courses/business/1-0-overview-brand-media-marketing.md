@@ -5,6 +5,10 @@ description: Marketing is an Art. As easy as building Lego blocks
 categories: [Marketing]
 tags: [Brand, CI]
 weight: 1
+cascade:
+  github_repo: https://github.com/some-username/another-repo/
+  github_subdir: docs
+  path_base_for_github_subdir: content/some-section
 ---
 
 提问：
@@ -22,6 +26,7 @@ A：修改配置解决了
 
 - **如果我要把以上github連結内容在某些页面中再加回来？应该如何操作？它是批量增加到某一个类的文档中吗？例如在docs中增加，但是我可以在blog中将其去除？**
 
+A: 可以在md中，添加配置，例如该文件上面的，cascade中的内容，可以参考这个配置，这个配置是针对单个文件的，如果要批量增加到某一个类的文档中，可以在该类的_index.md中添加配置
 
 - 如何增加blog 或docs页面中的文章分类，
 
