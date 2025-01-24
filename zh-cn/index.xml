@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Goldydocs on 酷壳众创</title><link>https://scp3125.github.io/hugo-docsy/zh-cn/</link><description>Recent content in Goldydocs on 酷壳众创</description><generator>Hugo</generator><language>zh-cn</language><atom:link href="https://scp3125.github.io/hugo-docsy/zh-cn/index.xml" rel="self" type="application/rss+xml"/><item><title>1.0 商业框架：概述- 品牌、传媒、营销</title><link>https://scp3125.github.io/hugo-docsy/zh-cn/courses/business/1-0-overview-brand-media-marketing/</link><pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/zh-cn/courses/business/1-0-overview-brand-media-marketing/</guid><description>&lt;blockquote>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>酷壳众创</title><link>https://scp3125.github.io/hugo-docsy/zh-cn/</link><description>Recent content on 酷壳众创</description><generator>Hugo</generator><language>zh-cn</language><atom:link href="https://scp3125.github.io/hugo-docsy/zh-cn/index.xml" rel="self" type="application/rss+xml"/><item><title>1.0 商业框架：概述- 品牌、传媒、营销</title><link>https://scp3125.github.io/hugo-docsy/zh-cn/courses/business/1-0-overview-brand-media-marketing/</link><pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/zh-cn/courses/business/1-0-overview-brand-media-marketing/</guid><description>&lt;blockquote>
 &lt;p>营销是一门艺术，应该像搭乐高积木一样欢乐和简单&lt;/p>
 &lt;/blockquote>
 &lt;blockquote>
@@ -382,10 +382,20 @@ Fetch and scale an image in the upcoming Hugo 0.43.
 &lt;/div>
 
 &lt;p>Text can be &lt;strong>bold&lt;/strong>, &lt;em>italic&lt;/em>, or &lt;del>strikethrough&lt;/del>. &lt;a href="https://gohugo.io">Links&lt;/a> should be blue with no underlines (unless hovered over).&lt;/p>
-&lt;p>There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.&lt;/p></description></item><item><title>博客</title><link>https://scp3125.github.io/hugo-docsy/zh-cn/blog/1/01/01/%E5%8D%9A%E5%AE%A2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/zh-cn/blog/1/01/01/%E5%8D%9A%E5%AE%A2/</guid><description>&lt;p>&lt;br>&lt;br>&lt;br>
-    &lt;/p>
-&lt;p>hugo-docsy/content/zh-cn/blog/_index.md 这个导航直接链接到另外一个博客网址 &lt;a href="https://blog.coolshell.in/">https://blog.coolshell.in/&lt;/a>&lt;/p>
-&lt;p>不在本站中写博客。&lt;/p></description></item><item><title>关于我们</title><link>https://scp3125.github.io/hugo-docsy/zh-cn/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/zh-cn/about/</guid><description>&lt;link rel="preload" as="image" href="https://scp3125.github.io/hugo-docsy/hugo-docsy/zh-cn/about/featured-background_hu4003775461251110261.jpg" media="(max-width: 1200px)">
+&lt;p>There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.&lt;/p></description></item><item><title/><link>https://scp3125.github.io/hugo-docsy/zh-cn/blog/1/01/01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/zh-cn/blog/1/01/01/</guid><description>&lt;p>hugo-docsy/content/zh-cn/blog/_index.md 这个导航直接链接到另外一个博客网址 &lt;a href="https://blog.coolshell.in/">https://blog.coolshell.in/&lt;/a>&lt;/p>
+&lt;p>不在本站中写博客。&lt;/p>
+&lt;p>A：删掉blog文件夹，在hugo.yaml中，各个语言下，添加合适的配置，比如：&lt;/p>
+&lt;p>zh-Cn:
+languageName: 中文简体
+contentDir: content/zh-cn
+title: 酷壳众创
+params:
+description: 左耳朵耗子的酷壳下一代众创版
+menu:
+main:
+- name: 博客
+weight: 50
+url: &amp;ldquo;&lt;a href="https://blog.coolshell.in">https://blog.coolshell.in&lt;/a>&amp;rdquo;&lt;/p></description></item><item><title>关于我们</title><link>https://scp3125.github.io/hugo-docsy/zh-cn/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/zh-cn/about/</guid><description>&lt;link rel="preload" as="image" href="https://scp3125.github.io/hugo-docsy/hugo-docsy/zh-cn/about/featured-background_hu4003775461251110261.jpg" media="(max-width: 1200px)">
 &lt;link rel="preload" as="image" href="https://scp3125.github.io/hugo-docsy/hugo-docsy/zh-cn/about/featured-background_hu2312927490661001000.jpg" media="(min-width: 1200px)">
 &lt;style>
 #td-cover-block-0 {
@@ -448,4 +458,14 @@ Fetch and scale an image in the upcoming Hugo 0.43.
 &lt;div class="col">
 &lt;div class="container">
 &lt;h1 id="我们能做什么">我们能做什么？&lt;a class="td-heading-self-link" href="#%e6%88%91%e4%bb%ac%e8%83%bd%e5%81%9a%e4%bb%80%e4%b9%88" aria-label="Heading self-link">&lt;/a>&lt;/h1>
-&lt;p>帮耗子实现愿望，几乎都是可以远程在键盘上码字的事，例如：维护酷壳博客、社交媒体、网络群组，推广他的创业公司MegaEase云服和开源软件等等。&lt;/p></description></item><item><title>搜索内容</title><link>https://scp3125.github.io/hugo-docsy/zh-cn/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/zh-cn/search/</guid><description/></item></channel></rss>
+&lt;p>帮耗子实现愿望，几乎都是可以远程在键盘上码字的事，例如：维护酷壳博客、社交媒体、网络群组，推广他的创业公司MegaEase云服和开源软件等等。&lt;/p></description></item><item><title>搜索内容</title><link>https://scp3125.github.io/hugo-docsy/zh-cn/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/zh-cn/search/</guid><description>&lt;p>&lt;br>&lt;br>&lt;br>
+    &lt;/p>
+&lt;p>问题：&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>搜索框中显示的“站内搜索”，这四个字在哪里修改配置的呢？好像是系统自动翻译的吗？&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>在i18n文件夹下zh-cn.toml写配置覆盖，所有的语言配置在https://github.com/google/docsy/tree/main/i18n里面都有&lt;/p>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>
