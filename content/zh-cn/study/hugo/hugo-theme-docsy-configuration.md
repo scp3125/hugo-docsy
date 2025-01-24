@@ -7,6 +7,8 @@ date: 2025-01-24
 
 本项目采纳主题[Hugo - Docsy](https://www.docsy.dev/)
 
+[测试网页](https://scp3125.github.io/hugo-docsy/zh-cn/)
+
 # 整站页面配置
 
 这个页面./community/ 的内容在哪里修改？前端页面有内容，但是打开这个文件，却看不到正文内容，搜索“Goldydocs community”，没找到文件。

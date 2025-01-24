@@ -36,9 +36,10 @@ jobs:
 
       - run: npm ci
       - run: hugo --baseURL https://${REPO_OWNER}.github.io/${REPO_NAME} --minify
-
+    # 下面这段代码负责同步静态页面到 gh-pages 分支:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         if: ${{ github.ref == 'refs/heads/main' }} # <-- specify same branch as above here
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+
