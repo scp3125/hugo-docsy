@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo 教程 on 酷壳众创</title><link>https://scp3125.github.io/hugo-docsy/zh-cn/study/hugo/</link><description>Recent content in Hugo 教程 on 酷壳众创</description><generator>Hugo</generator><language>zh-cn</language><atom:link href="https://scp3125.github.io/hugo-docsy/zh-cn/study/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo - Docsy</title><link>https://scp3125.github.io/hugo-docsy/zh-cn/study/hugo/hugo-theme-docsy-configuration/</link><pubDate>Fri, 24 Jan 2025 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/zh-cn/study/hugo/hugo-theme-docsy-configuration/</guid><description>&lt;p>本项目采纳主题&lt;a href="https://www.docsy.dev/">Hugo - Docsy&lt;/a>&lt;/p>
+&lt;h1 id="整站页面配置">整站页面配置&lt;a class="td-heading-self-link" href="#%e6%95%b4%e7%ab%99%e9%a1%b5%e9%9d%a2%e9%85%8d%e7%bd%ae" aria-label="Heading self-link">&lt;/a>&lt;/h1>
+&lt;p>这个页面./community/ 的内容在哪里修改？前端页面有内容，但是打开这个文件，却看不到正文内容，搜索“Goldydocs community”，没找到文件。&lt;/p>
+&lt;p>A：逻辑和搜索框一样，在i18n文件夹下zh-cn.toml 配置覆盖，所有的语言配置在https://github.com/google/docsy/tree/main/i18n&lt;/p>
+&lt;h1 id="修改主题模板">修改主题模板&lt;a class="td-heading-self-link" href="#%e4%bf%ae%e6%94%b9%e4%b8%bb%e9%a2%98%e6%a8%a1%e6%9d%bf" aria-label="Heading self-link">&lt;/a>&lt;/h1>
+&lt;p>这个页面、首页和about页面中 ./content/zh-cn/about/ 的中间大块颜色背景的block 是通过以下这些代码控制的吗？但是这个community页面中的block在哪个文件中控制呢？&lt;/p>
+&lt;p>A：这个得自己修改主题模板了，创建html文件，示例在layouts/community下面，需要修改html文件改样式&lt;/p>
+&lt;h1 id="背景图片外链">背景图片外链&lt;a class="td-heading-self-link" href="#%e8%83%8c%e6%99%af%e5%9b%be%e7%89%87%e5%a4%96%e9%93%be" aria-label="Heading self-link">&lt;/a>&lt;/h1>
+&lt;p>about, index 等网页背景图片，是否可以用外链到google drive中的图片？而不是将图片也和网页文件一起存放到源码库中。&lt;/p>
+&lt;p>A:可以改，图片语法参考https://www.docsy.dev/docs/adding-content/shortcodes/#blockscover, google drive之类的网盘不清楚，正常没有反盗机制的图片是可以的&lt;/p>
+&lt;h1 id="导航网址外链">导航网址外链&lt;a class="td-heading-self-link" href="#%e5%af%bc%e8%88%aa%e7%bd%91%e5%9d%80%e5%a4%96%e9%93%be" aria-label="Heading self-link">&lt;/a>&lt;/h1>
+&lt;p>例如hugo-docsy/content/zh-cn/blog/_index.md 这个导航直接链接到另外一个博客网址 &lt;a href="https://blog.coolshell.in/">https://blog.coolshell.in/&lt;/a>&lt;/p>
+&lt;p>不在本站中写博客。&lt;/p>
+&lt;p>A：删掉blog文件夹，在hugo.yaml中，各个语言下，添加合适的配置，比如：&lt;/p>
+&lt;p>zh-Cn:
+languageName: 中文简体
+contentDir: content/zh-cn
+title: 酷壳众创
+params:
+description: 左耳朵耗子的酷壳下一代众创版
+menu:
+main:
+- name: 博客
+weight: 50
+url: &amp;ldquo;&lt;a href="https://blog.coolshell.in">https://blog.coolshell.in&lt;/a>&amp;rdquo;&lt;/p>
+&lt;h1 id="文件目录和内容类型">文件目录和内容类型&lt;a class="td-heading-self-link" href="#%e6%96%87%e4%bb%b6%e7%9b%ae%e5%bd%95%e5%92%8c%e5%86%85%e5%ae%b9%e7%b1%bb%e5%9e%8b" aria-label="Heading self-link">&lt;/a>&lt;/h1>
+&lt;ul>
+&lt;li>./content/zh-cn/courses/_index.md 将原blog 目录改为courses 后，其中的文章消失不见了；&lt;/li>
+&lt;/ul>
+&lt;p>A：加一个type: blog 就好了，因为如果文件夹是blog, 默认就是blog类型的，如果是其他类型的，需要加上type: blog&lt;/p>
+&lt;ul>
+&lt;li>参考./content/zh-cn/docs/，打开任何一个页面，左右两侧边栏的目录导航菜单和tag，catelogies都保留的。&lt;p style="color: red;">但是，如果不给头信息中增加“type: blog”，那么./content/zh-cn/courses/ 中的文章页面的左右两侧边栏的目录都消失了，docs/如何做到没有增加内容类型，却可以保留侧边栏的目录呢？&lt;/p></description></item></channel></rss>

@@ -325,6 +325,12 @@ or elsewhere? Link to your examples here.&lt;/p></description></item><item><titl
 &lt;/div>
 
 &lt;p>Text can be &lt;strong>bold&lt;/strong>, &lt;em>italic&lt;/em>, or &lt;del>strikethrough&lt;/del>. &lt;a href="https://gohugo.io">Links&lt;/a> should be blue with no underlines (unless hovered over).&lt;/p>
+&lt;p>There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.&lt;/p></description></item><item><title>Multi-Bear Domicile Setup</title><link>https://scp3125.github.io/hugo-docsy/zh-cn/study/tutorials/multi-bear/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/zh-cn/study/tutorials/multi-bear/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
+
+&lt;/div>
+
+&lt;p>Text can be &lt;strong>bold&lt;/strong>, &lt;em>italic&lt;/em>, or &lt;del>strikethrough&lt;/del>. &lt;a href="https://gohugo.io">Links&lt;/a> should be blue with no underlines (unless hovered over).&lt;/p>
 &lt;p>There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.&lt;/p></description></item><item><title>Porridge Assessment</title><link>https://scp3125.github.io/hugo-docsy/zh-cn/docs/tasks/porridge/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/zh-cn/docs/tasks/porridge/</guid><description>&lt;div class="pageinfo pageinfo-primary">
 &lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
 
@@ -348,9 +354,46 @@ or elsewhere? Link to your examples here.&lt;/p></description></item><item><titl
 &lt;/div>
 
 &lt;p>Text can be &lt;strong>bold&lt;/strong>, &lt;em>italic&lt;/em>, or &lt;del>strikethrough&lt;/del>. &lt;a href="https://gohugo.io">Links&lt;/a> should be blue with no underlines (unless hovered over).&lt;/p>
+&lt;p>There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.&lt;/p></description></item><item><title>Another Tutorial</title><link>https://scp3125.github.io/hugo-docsy/zh-cn/study/tutorials/tutorial2/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/zh-cn/study/tutorials/tutorial2/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
+
+&lt;/div>
+
+&lt;p>Text can be &lt;strong>bold&lt;/strong>, &lt;em>italic&lt;/em>, or &lt;del>strikethrough&lt;/del>. &lt;a href="https://gohugo.io">Links&lt;/a> should be blue with no underlines (unless hovered over).&lt;/p>
 &lt;p>There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.&lt;/p></description></item><item><title>Contribution Guidelines</title><link>https://scp3125.github.io/hugo-docsy/zh-cn/docs/contribution-guidelines/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/zh-cn/docs/contribution-guidelines/</guid><description>&lt;div class="pageinfo pageinfo-primary">
 &lt;p>These basic sample guidelines assume that your Docsy site is deployed using Netlify and your files are stored in GitHub. You can use the guidelines &amp;ldquo;as is&amp;rdquo; or adapt them with your own instructions: for example, other deployment options, information about your doc project&amp;rsquo;s file structure, project-specific review guidelines, versioning guidelines, or any other information your users might find useful when updating your site. &lt;a href="https://github.com/kubeflow/website/blob/master/README.md">Kubeflow&lt;/a> has a great example.&lt;/p>
-&lt;p>Don&amp;rsquo;t forget to link to your own doc repo rather than our example site! Also make sure users can find these guidelines from your doc repo README: either add them there and link to them from this page, add them here and link to them from the README, or include them in both locations.&lt;/p></description></item><item><title>Easy documentation with Docsy</title><link>https://scp3125.github.io/hugo-docsy/zh-cn/courses/news/first-post/</link><pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/zh-cn/courses/news/first-post/</guid><description>&lt;p>&lt;strong>This is a typical blog post that includes images.&lt;/strong>&lt;/p>
+&lt;p>Don&amp;rsquo;t forget to link to your own doc repo rather than our example site! Also make sure users can find these guidelines from your doc repo README: either add them there and link to them from this page, add them here and link to them from the README, or include them in both locations.&lt;/p></description></item><item><title>Hugo - Docsy</title><link>https://scp3125.github.io/hugo-docsy/zh-cn/study/hugo/hugo-theme-docsy-configuration/</link><pubDate>Fri, 24 Jan 2025 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/zh-cn/study/hugo/hugo-theme-docsy-configuration/</guid><description>&lt;p>本项目采纳主题&lt;a href="https://www.docsy.dev/">Hugo - Docsy&lt;/a>&lt;/p>
+&lt;h1 id="整站页面配置">整站页面配置&lt;a class="td-heading-self-link" href="#%e6%95%b4%e7%ab%99%e9%a1%b5%e9%9d%a2%e9%85%8d%e7%bd%ae" aria-label="Heading self-link">&lt;/a>&lt;/h1>
+&lt;p>这个页面./community/ 的内容在哪里修改？前端页面有内容，但是打开这个文件，却看不到正文内容，搜索“Goldydocs community”，没找到文件。&lt;/p>
+&lt;p>A：逻辑和搜索框一样，在i18n文件夹下zh-cn.toml 配置覆盖，所有的语言配置在https://github.com/google/docsy/tree/main/i18n&lt;/p>
+&lt;h1 id="修改主题模板">修改主题模板&lt;a class="td-heading-self-link" href="#%e4%bf%ae%e6%94%b9%e4%b8%bb%e9%a2%98%e6%a8%a1%e6%9d%bf" aria-label="Heading self-link">&lt;/a>&lt;/h1>
+&lt;p>这个页面、首页和about页面中 ./content/zh-cn/about/ 的中间大块颜色背景的block 是通过以下这些代码控制的吗？但是这个community页面中的block在哪个文件中控制呢？&lt;/p>
+&lt;p>A：这个得自己修改主题模板了，创建html文件，示例在layouts/community下面，需要修改html文件改样式&lt;/p>
+&lt;h1 id="背景图片外链">背景图片外链&lt;a class="td-heading-self-link" href="#%e8%83%8c%e6%99%af%e5%9b%be%e7%89%87%e5%a4%96%e9%93%be" aria-label="Heading self-link">&lt;/a>&lt;/h1>
+&lt;p>about, index 等网页背景图片，是否可以用外链到google drive中的图片？而不是将图片也和网页文件一起存放到源码库中。&lt;/p>
+&lt;p>A:可以改，图片语法参考https://www.docsy.dev/docs/adding-content/shortcodes/#blockscover, google drive之类的网盘不清楚，正常没有反盗机制的图片是可以的&lt;/p>
+&lt;h1 id="导航网址外链">导航网址外链&lt;a class="td-heading-self-link" href="#%e5%af%bc%e8%88%aa%e7%bd%91%e5%9d%80%e5%a4%96%e9%93%be" aria-label="Heading self-link">&lt;/a>&lt;/h1>
+&lt;p>例如hugo-docsy/content/zh-cn/blog/_index.md 这个导航直接链接到另外一个博客网址 &lt;a href="https://blog.coolshell.in/">https://blog.coolshell.in/&lt;/a>&lt;/p>
+&lt;p>不在本站中写博客。&lt;/p>
+&lt;p>A：删掉blog文件夹，在hugo.yaml中，各个语言下，添加合适的配置，比如：&lt;/p>
+&lt;p>zh-Cn:
+languageName: 中文简体
+contentDir: content/zh-cn
+title: 酷壳众创
+params:
+description: 左耳朵耗子的酷壳下一代众创版
+menu:
+main:
+- name: 博客
+weight: 50
+url: &amp;ldquo;&lt;a href="https://blog.coolshell.in">https://blog.coolshell.in&lt;/a>&amp;rdquo;&lt;/p>
+&lt;h1 id="文件目录和内容类型">文件目录和内容类型&lt;a class="td-heading-self-link" href="#%e6%96%87%e4%bb%b6%e7%9b%ae%e5%bd%95%e5%92%8c%e5%86%85%e5%ae%b9%e7%b1%bb%e5%9e%8b" aria-label="Heading self-link">&lt;/a>&lt;/h1>
+&lt;ul>
+&lt;li>./content/zh-cn/courses/_index.md 将原blog 目录改为courses 后，其中的文章消失不见了；&lt;/li>
+&lt;/ul>
+&lt;p>A：加一个type: blog 就好了，因为如果文件夹是blog, 默认就是blog类型的，如果是其他类型的，需要加上type: blog&lt;/p>
+&lt;ul>
+&lt;li>参考./content/zh-cn/docs/，打开任何一个页面，左右两侧边栏的目录导航菜单和tag，catelogies都保留的。&lt;p style="color: red;">但是，如果不给头信息中增加“type: blog”，那么./content/zh-cn/courses/ 中的文章页面的左右两侧边栏的目录都消失了，docs/如何做到没有增加内容类型，却可以保留侧边栏的目录呢？&lt;/p></description></item><item><title>Easy documentation with Docsy</title><link>https://scp3125.github.io/hugo-docsy/zh-cn/courses/news/first-post/</link><pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/zh-cn/courses/news/first-post/</guid><description>&lt;p>&lt;strong>This is a typical blog post that includes images.&lt;/strong>&lt;/p>
 &lt;p>The front matter specifies the date of the blog post, its title, a short description that will be displayed on the blog landing page, and its author.&lt;/p>
 &lt;h2 id="including-images">Including images&lt;a class="td-heading-self-link" href="#including-images" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>Here&amp;rsquo;s an image (&lt;code>featured-sunset-get.png&lt;/code>) that includes a byline and a caption.&lt;/p>
@@ -376,26 +419,7 @@ Fetch and scale an image in the upcoming Hugo 0.43.
 &lt;/div>
 
 &lt;p>Text can be &lt;strong>bold&lt;/strong>, &lt;em>italic&lt;/em>, or &lt;del>strikethrough&lt;/del>. &lt;a href="https://gohugo.io">Links&lt;/a> should be blue with no underlines (unless hovered over).&lt;/p>
-&lt;p>There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.&lt;/p></description></item><item><title>Parameter Reference</title><link>https://scp3125.github.io/hugo-docsy/zh-cn/docs/reference/parameter-reference/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/zh-cn/docs/reference/parameter-reference/</guid><description>&lt;div class="pageinfo pageinfo-primary">
-&lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
-
-&lt;/div>
-
-&lt;p>Text can be &lt;strong>bold&lt;/strong>, &lt;em>italic&lt;/em>, or &lt;del>strikethrough&lt;/del>. &lt;a href="https://gohugo.io">Links&lt;/a> should be blue with no underlines (unless hovered over).&lt;/p>
-&lt;p>There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.&lt;/p></description></item><item><title/><link>https://scp3125.github.io/hugo-docsy/zh-cn/blog/1/01/01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/zh-cn/blog/1/01/01/</guid><description>&lt;p>hugo-docsy/content/zh-cn/blog/_index.md 这个导航直接链接到另外一个博客网址 &lt;a href="https://blog.coolshell.in/">https://blog.coolshell.in/&lt;/a>&lt;/p>
-&lt;p>不在本站中写博客。&lt;/p>
-&lt;p>A：删掉blog文件夹，在hugo.yaml中，各个语言下，添加合适的配置，比如：&lt;/p>
-&lt;p>zh-Cn:
-languageName: 中文简体
-contentDir: content/zh-cn
-title: 酷壳众创
-params:
-description: 左耳朵耗子的酷壳下一代众创版
-menu:
-main:
-- name: 博客
-weight: 50
-url: &amp;ldquo;&lt;a href="https://blog.coolshell.in">https://blog.coolshell.in&lt;/a>&amp;rdquo;&lt;/p></description></item><item><title>关于我们</title><link>https://scp3125.github.io/hugo-docsy/zh-cn/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/zh-cn/about/</guid><description>&lt;link rel="preload" as="image" href="https://scp3125.github.io/hugo-docsy/hugo-docsy/zh-cn/about/featured-background_hu4003775461251110261.jpg" media="(max-width: 1200px)">
+&lt;p>There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.&lt;/p></description></item><item><title/><link>https://scp3125.github.io/hugo-docsy/zh-cn/blog/1/01/01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/zh-cn/blog/1/01/01/</guid><description/></item><item><title>关于我们</title><link>https://scp3125.github.io/hugo-docsy/zh-cn/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/zh-cn/about/</guid><description>&lt;link rel="preload" as="image" href="https://scp3125.github.io/hugo-docsy/hugo-docsy/zh-cn/about/featured-background_hu4003775461251110261.jpg" media="(max-width: 1200px)">
 &lt;link rel="preload" as="image" href="https://scp3125.github.io/hugo-docsy/hugo-docsy/zh-cn/about/featured-background_hu2312927490661001000.jpg" media="(min-width: 1200px)">
 &lt;style>
 #td-cover-block-0 {
@@ -458,14 +482,5 @@ url: &amp;ldquo;&lt;a href="https://blog.coolshell.in">https://blog.coolshell.in
 &lt;div class="col">
 &lt;div class="container">
 &lt;h1 id="我们能做什么">我们能做什么？&lt;a class="td-heading-self-link" href="#%e6%88%91%e4%bb%ac%e8%83%bd%e5%81%9a%e4%bb%80%e4%b9%88" aria-label="Heading self-link">&lt;/a>&lt;/h1>
-&lt;p>帮耗子实现愿望，几乎都是可以远程在键盘上码字的事，例如：维护酷壳博客、社交媒体、网络群组，推广他的创业公司MegaEase云服和开源软件等等。&lt;/p></description></item><item><title>搜索内容</title><link>https://scp3125.github.io/hugo-docsy/zh-cn/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/zh-cn/search/</guid><description>&lt;p>&lt;br>&lt;br>&lt;br>
-    &lt;/p>
-&lt;p>问题：&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>搜索框中显示的“站内搜索”，这四个字在哪里修改配置的呢？好像是系统自动翻译的吗？&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>在i18n文件夹下zh-cn.toml写配置覆盖，所有的语言配置在https://github.com/google/docsy/tree/main/i18n里面都有&lt;/p>
-&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;p>帮耗子实现愿望，几乎都是可以远程在键盘上码字的事，例如：维护酷壳博客、社交媒体、网络群组，推广他的创业公司MegaEase云服和开源软件等等。&lt;/p></description></item><item><title>搜索</title><link>https://scp3125.github.io/hugo-docsy/zh-cn/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/zh-cn/search/</guid><description>&lt;p>&lt;br>&lt;br>&lt;br>
+    &lt;/p></description></item></channel></rss>

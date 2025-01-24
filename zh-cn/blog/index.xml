@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blogs on 酷壳众创</title><link>https://scp3125.github.io/hugo-docsy/zh-cn/blog/</link><description>Recent content in Blogs on 酷壳众创</description><generator>Hugo</generator><language>zh-cn</language><atom:link href="https://scp3125.github.io/hugo-docsy/zh-cn/blog/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://scp3125.github.io/hugo-docsy/zh-cn/blog/1/01/01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/zh-cn/blog/1/01/01/</guid><description>&lt;p>hugo-docsy/content/zh-cn/blog/_index.md 这个导航直接链接到另外一个博客网址 &lt;a href="https://blog.coolshell.in/">https://blog.coolshell.in/&lt;/a>&lt;/p>
-&lt;p>不在本站中写博客。&lt;/p>
-&lt;p>A：删掉blog文件夹，在hugo.yaml中，各个语言下，添加合适的配置，比如：&lt;/p>
-&lt;p>zh-Cn:
-languageName: 中文简体
-contentDir: content/zh-cn
-title: 酷壳众创
-params:
-description: 左耳朵耗子的酷壳下一代众创版
-menu:
-main:
-- name: 博客
-weight: 50
-url: &amp;ldquo;&lt;a href="https://blog.coolshell.in">https://blog.coolshell.in&lt;/a>&amp;rdquo;&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blogs on 酷壳众创</title><link>https://scp3125.github.io/hugo-docsy/zh-cn/blog/</link><description>Recent content in Blogs on 酷壳众创</description><generator>Hugo</generator><language>zh-cn</language><atom:link href="https://scp3125.github.io/hugo-docsy/zh-cn/blog/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://scp3125.github.io/hugo-docsy/zh-cn/blog/1/01/01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/zh-cn/blog/1/01/01/</guid><description/></item></channel></rss>
