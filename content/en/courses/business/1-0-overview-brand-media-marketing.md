@@ -11,35 +11,6 @@ cascade:
   path_base_for_github_subdir: content/some-section
 ---
 
-提问：
-
-- 如何去除页面右上方的github库相关信息？这些是多余的内容，具体如下：
-
-- View page source
-- Edit this page
-- Create child page
-- Create documentation issue
-- Create project issue
-- Print entire section
-
-A：修改配置解决了
-
-- **如果我要把以上github連結内容在某些页面中再加回来？应该如何操作？它是批量增加到某一个类的文档中吗？例如在docs中增加，但是我可以在blog中将其去除？**
-
-A: 可以在md中，添加配置，例如该文件上面的，cascade中的内容，可以参考这个配置，这个配置是针对单个文件的，如果要批量增加到某一个类的文档中，可以在该类的_index.md中添加配置
-
-- 如何增加blog 或docs页面中的文章分类，
-
-我在blog下增加一个分类 business，中文/英文版本中都有该分类。 
-
-A：目录下需要有_index.md文件，填好里面的内容就能显示
- 
-源库中目录分类例如：
-/blog/news/ 分类目录名为 news，/blog/releases/ 分类目录名为 releases
-
-/docs/tutorials/ 分类目录名为 tutorials， /docs/tasks/ponycopters/ 有2-3级目录，分类目录名为 tasks/和 ponycopters/，ponycopters/目录中才是文章。
-
-A:这个按照当前的文件夹结构就行，不需要额外的配置，如果某一层不想有文章，该文件夹下不需要有md文件就行，但是需要有_index.md文件
 
 # 1. Overview: Brand,Media,Marketing
 

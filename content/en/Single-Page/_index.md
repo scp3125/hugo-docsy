@@ -6,22 +6,6 @@ menu: {main: {weight: 40}}
 <br><br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-尝试在导航栏中创建一个单页面，要求其他语言版本中也都要有。
-
-bug：
-
-1. 前端页面显示，头信息和正文之间没有空格？样式需要调整到合适状态，而且第一个标题 # Creating a Single Page on Hugo 丢失了 ？
-
-A:可以使用markdown语法加空格，标题并未丢失，markdown空格可以用 `&nbsp;` 
-
-1. 中文内容在目录zh中，但是导航上没有中文语言切换项；
-
-A:修改配置文件，已解决
-
-&nbsp;
-&nbsp;
-&nbsp;
-
 # Creating a Single Page on Hugo
 
 Hugo is a powerful static site generator that makes it easy to create content-rich websites. Here’s a step-by-step guide to creating a single page on Hugo:

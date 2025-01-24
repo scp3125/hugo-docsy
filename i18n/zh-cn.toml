@@ -1,5 +1,5 @@
 [ui_search]
-other = "测试搜索…"
+other = "搜索内容…"
 
 [community_join]
 other = "加入 {{ .Site.Title }} 社区"
