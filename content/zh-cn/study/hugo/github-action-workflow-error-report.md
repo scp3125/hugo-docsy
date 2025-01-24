@@ -6,13 +6,17 @@ date: 2017-01-05
 weight: 4
 ---
 
+测试库 https://coolshell-in.github.io/hugo-docsy/
+
 在github pages页面中，设置“Build and deployment Source” 为“Github Actions”，然后运行workflow，发现失败，详细报告如下：
+
 Annotations
 1 error
 
 deploy
 
 Action failed with "The process '/usr/bin/git' failed with exit code 128"
+
 
 # Deploy
 
