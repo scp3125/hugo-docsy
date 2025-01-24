@@ -24,12 +24,11 @@
 &lt;/ul>
 &lt;p>A：修改配置解决了&lt;/p>
 &lt;ul>
-&lt;li>
-&lt;p>&lt;strong>如果我要把以上github連結内容在某些页面中再加回来？应该如何操作？它是批量增加到某一个类的文档中吗？例如在docs中增加，但是我可以在blog中将其去除？&lt;/strong>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>如何增加blog 或docs页面中的文章分类，&lt;/p>
-&lt;/li>
+&lt;li>&lt;strong>如果我要把以上github連結内容在某些页面中再加回来？应该如何操作？它是批量增加到某一个类的文档中吗？例如在docs中增加，但是我可以在blog中将其去除？&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>A: 可以在md中，添加配置，例如该文件上面的，cascade中的内容，可以参考这个配置，这个配置是针对单个文件的，如果要批量增加到某一个类的文档中，可以在该类的_index.md中添加配置&lt;/p>
+&lt;ul>
+&lt;li>如何增加blog 或docs页面中的文章分类，&lt;/li>
 &lt;/ul>
 &lt;p>我在blog下增加一个分类 business，中文/英文版本中都有该分类。&lt;/p>
 &lt;p>A：目录下需要有_index.md文件，填好里面的内容就能显示&lt;/p>
