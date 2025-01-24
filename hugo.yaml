@@ -56,6 +56,11 @@ languages:
     title: 酷壳众创
     params:
       description: 左耳朵耗子的酷壳下一代众创版
+    menu:
+      main:
+        - name: 博客
+          weight: 50
+          url:  "https://blog.coolshell.in"
   ru:
       languageName: Русский
       contentDir: content/ru
