@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo 教程 on 酷壳众创</title><link>https://scp3125.github.io/hugo-docsy/zh-cn/study/hugo/</link><description>Recent content in Hugo 教程 on 酷壳众创</description><generator>Hugo</generator><language>zh-cn</language><atom:link href="https://scp3125.github.io/hugo-docsy/zh-cn/study/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Github action workflow 错误报告</title><link>https://scp3125.github.io/hugo-docsy/zh-cn/study/hugo/github-action-workflow-error-report/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/zh-cn/study/hugo/github-action-workflow-error-report/</guid><description>&lt;p>测试库 &lt;a href="https://coolshell-in.github.io/hugo-docsy/">https://coolshell-in.github.io/hugo-docsy/&lt;/a>&lt;/p>
 &lt;p>在github pages页面中，设置“Build and deployment Source” 为“Github Actions”，然后运行workflow，发现失败，详细报告如下：&lt;/p>
+&lt;p>A:1、进入仓库中settings中的Actions下的General,将Workflow permissions修改为Read and write permissions
+2、进入settings中的Pages下，将Source修改为gh-pages分支，目录为/(root)
+然后再次部署&lt;/p>
 &lt;p>Annotations
 1 error&lt;/p>
 &lt;p>deploy&lt;/p>
@@ -98,10 +101,10 @@ Push the commit or tag&lt;/p></description></item><item><title>Hugo - Docsy</tit
 &lt;h1 id="整站页面配置">整站页面配置&lt;a class="td-heading-self-link" href="#%e6%95%b4%e7%ab%99%e9%a1%b5%e9%9d%a2%e9%85%8d%e7%bd%ae" aria-label="Heading self-link">&lt;/a>&lt;/h1>
 &lt;p>这个页面./community/ 的内容在哪里修改？前端页面有内容，但是打开这个文件，却看不到正文内容，搜索“Goldydocs community”，没找到文件。&lt;/p>
 &lt;p>A：逻辑和搜索框一样，在i18n文件夹下zh-cn.toml 配置覆盖，所有的语言配置在https://github.com/google/docsy/tree/main/i18n&lt;/p>
-&lt;h1 id="修改主题模板">修改主题模板&lt;a class="td-heading-self-link" href="#%e4%bf%ae%e6%94%b9%e4%b8%bb%e9%a2%98%e6%a8%a1%e6%9d%bf" aria-label="Heading self-link">&lt;/a>&lt;/h1>
+&lt;h2 id="修改主题模板">修改主题模板&lt;a class="td-heading-self-link" href="#%e4%bf%ae%e6%94%b9%e4%b8%bb%e9%a2%98%e6%a8%a1%e6%9d%bf" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>这个页面、首页和about页面中 ./content/zh-cn/about/ 的中间大块颜色背景的block 是通过以下这些代码控制的吗？但是这个community页面中的block在哪个文件中控制呢？&lt;/p>
 &lt;p>A：这个得自己修改主题模板了，创建html文件，示例在layouts/community下面，需要修改html文件改样式&lt;/p>
-&lt;h1 id="背景图片外链">背景图片外链&lt;a class="td-heading-self-link" href="#%e8%83%8c%e6%99%af%e5%9b%be%e7%89%87%e5%a4%96%e9%93%be" aria-label="Heading self-link">&lt;/a>&lt;/h1>
+&lt;h3 id="背景图片外链">背景图片外链&lt;a class="td-heading-self-link" href="#%e8%83%8c%e6%99%af%e5%9b%be%e7%89%87%e5%a4%96%e9%93%be" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>about, index 等网页背景图片，是否可以用外链到google drive中的图片？而不是将图片也和网页文件一起存放到源码库中。&lt;/p>
 &lt;p>A:可以改，图片语法参考https://www.docsy.dev/docs/adding-content/shortcodes/#blockscover, google drive之类的网盘不清楚，正常没有反盗机制的图片是可以的&lt;/p>
 &lt;h1 id="导航网址外链">导航网址外链&lt;a class="td-heading-self-link" href="#%e5%af%bc%e8%88%aa%e7%bd%91%e5%9d%80%e5%a4%96%e9%93%be" aria-label="Heading self-link">&lt;/a>&lt;/h1>
