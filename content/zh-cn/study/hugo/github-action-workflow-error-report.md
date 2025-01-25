@@ -8,7 +8,12 @@ weight: 4
 
 测试库 https://coolshell-in.github.io/hugo-docsy/
 
+
 在github pages页面中，设置“Build and deployment Source” 为“Github Actions”，然后运行workflow，发现失败，详细报告如下：
+
+A:1、进入仓库中settings中的Actions下的General,将Workflow permissions修改为Read and write permissions
+2、进入settings中的Pages下，将Source修改为gh-pages分支，目录为/(root)
+然后再次部署
 
 Annotations
 1 error

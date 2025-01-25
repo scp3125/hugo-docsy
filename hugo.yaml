@@ -69,6 +69,10 @@ languages:
         time_format_default: 02.01.2006
         time_format_blog: 02.01.2006
 markup:
+  tableOfContents:
+    endLevel: 3
+    ordered: false
+    startLevel: 1
   goldmark:
     parser:
       attribute:
@@ -81,11 +85,13 @@ markup:
     # Uncomment if you want your chosen highlight style used for code blocks without a specified language
     # guessSyntax: true
 
+
 # Everything below this are Site Params
 
 # Comment out if you don't want the "print entire section" link enabled.
 outputs:
   section: [HTML, RSS]
+
 
 params:
   taxonomy:

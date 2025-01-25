@@ -1,7 +1,8 @@
 ---
 title: 课程
 menu: {main: {weight: 30}}
-type: blog
+cascade:
+    type: blog
 ---
 
 
