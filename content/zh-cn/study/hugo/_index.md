@@ -9,12 +9,11 @@ weight: 12
 {{% /pageinfo %}}
 
 
-https://gohugo.io/
-
 
 # 选主题
 
 在github库中选，[多星的主题](https://github.com/search?q=hugo+theme&type=repositories&s=stars&o=desc)
 
-https://www.docsy.dev/
+
+https://gohugo.io/
 

@@ -5,7 +5,7 @@ description: >
 date: 2025-01-24
 ---
 
-本项目采纳主题[Hugo - Docsy](https://www.docsy.dev/)
+本项目采纳主题[Hugo-Docsy](https://www.docsy.dev/)
 
 [测试网页](https://scp3125.github.io/hugo-docsy/zh-cn/)
 
@@ -15,7 +15,7 @@ date: 2025-01-24
 # 安装方式
 目前本主题的安装方式是怎样的？例如远程主题、gem-based，或还有其他方式。为何在本站根目录中没有发现hugo建站相关的程序文件和theme 目录？
 
-我们寻找Hugo的配置文件的位置，为了查找静态页面保存的文件目录（ publishDir）的配置，可能有几个文件与该配置相关：
+我们寻找Hugo的配置文件的位置，为了查找静态页面所保存的文件目录```publishDir=public```的配置，可能有几个文件与该配置相关：
 
 ```sh
 config/_default/config.toml
@@ -26,7 +26,7 @@ config/production/config.yaml
 config/production/config.json
 ```
 
-如果不采用docker方法安装，需要删除它们吧。
+如果不采用docker方法安装，需要删除docker相关文件吧，包括哪些文件清单？
 
 
 # 整站页面配置
