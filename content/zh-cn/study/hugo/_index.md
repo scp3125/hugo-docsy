@@ -2,8 +2,6 @@
 title: Hugo 教程
 description: 
 weight: 12
-cascade:
-  - type: "blog"
 ---
 
 {{% pageinfo %}}

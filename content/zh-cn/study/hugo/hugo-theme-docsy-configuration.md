@@ -9,6 +9,12 @@ date: 2025-01-24
 
 [测试网页](https://scp3125.github.io/hugo-docsy/zh-cn/)
 
+[测试库](https://github.com/scp3125/hugo-docsy)
+
+
+
+
+
 # 整站页面配置
 
 这个页面./community/ 的内容在哪里修改？前端页面有内容，但是打开这个文件，却看不到正文内容，搜索“Goldydocs community”，没找到文件。
@@ -22,6 +28,8 @@ A：逻辑和搜索框一样，在i18n文件夹下zh-cn.toml 配置覆盖，所�
 这个页面、首页和about页面中 ./content/zh-cn/about/ 的中间大块颜色背景的block 是通过以下这些代码控制的吗？但是这个community页面中的block在哪个文件中控制呢？
   
 A：这个得自己修改主题模板了，创建html文件，示例在layouts/community下面，需要修改html文件改样式
+
+
 
 ### 背景图片外链
 
@@ -52,7 +60,7 @@ A：删掉blog文件夹，在hugo.yaml中，各个语言下，添加合适的配
 
 # 文件目录和内容类型
 
-- ./content/zh-cn/courses/_index.md 将原blog 目录改为courses 后，其中的文章消失不见了；
+- 将原blog 目录./content/zh-cn/blog/ 改为courses 后，其中的文章消失不见了；
 
 A：加一个type: blog 就好了，因为如果文件夹是blog, 默认就是blog类型的，如果是其他类型的，需要加上type: blog
 
@@ -60,25 +68,29 @@ A：加一个type: blog 就好了，因为如果文件夹是blog, 默认就是bl
 
 A:因为官方提供了几个默认模板，包含doc、blog、community等，如果你的文件夹名字和模板名字一样，就会默认使用这个模板，如果不一样，就需要在md文件中加上type: blog，这样就会使用blog模板
 
-我们给这个文章./content/zh-cn/courses/releases/_index.md 的头信息中增加了“cascade:
-  - type: "blog"”
-
+我们给这个文章./content/zh-cn/courses/releases/_index.md 的头信息中增加了
+```sh 
+  cascade:  
+      type: "blog"
+```
 因此唯独这篇文章可以显示两边的侧边栏导航菜单，同样在./content/zh-cn/courses/目录下的其他任何文章没有增加“cascade”，它们每一篇文章页面都缺少了侧边栏。当然我们希望，尽量少给每篇文章都做配置，批量给某一个目录下文章都赋予相同的页面样式结构。
 
 
-A1:可以使用如下格式：
-cascade:
-  - type: "docs"
+A1:可以使用如下格式： 
+```sh 
+  cascade:  
+      type: "blog"
+```
 cascade可以让你在一个文件夹下的所有文件都使用该配置，不需要每个文件都写一遍
-如果只是：
-type: "docs"
-那么只有这个文件会使用这个配置，其他文件不会使用
+如果只是用
+```sh
+ type: "docs" 
+```
+那么只有这个文件会使用这个配置，其他文件不会使用.
 
 系统默认的原 docs和blog目录中文章内容类型是什么？在哪里定义docs和blog这种保留左右侧边栏目录的页面样式呢？我们复制了 docs/ 目录，并命名为 study/, 中文命名“学习”，但是其中的文章没有类似docs/页面那样的左右侧边栏。
 
-A:文章类型就是docs或者blog。
-定义如上面的A1回答。
-我这边是能看到左右侧边栏的。
+A:文章类型就是docs或者blog，定义如上面的A1回答，我这边是能看到左右侧边栏的。
 
 目前每篇文章又侧边栏的文章目录仅仅显示2-3级标题，无法显示1级标题，在哪个文章中配置更改我们想要显示的标题级数呢？例如这个页面中，我们仅仅有1级标题，因此无法在右侧边栏显示目录。
 
@@ -96,7 +108,11 @@ markup:
 
 bug：前端页面显示，头信息和正文之间没有空格，而且第一个#标题丢失了 ？
 
-A: 标题并未丢失，因为样式中却发空行，导致被隐藏，markdown语法加空格和空行可以使用 ```<br><br><br> &nbsp;&nbsp;&nbsp;&nbsp;```
+A: 标题并未丢失，因为样式中却发空行，导致被隐藏，markdown语法加空格和空行可以使用 
+
+```sh
+<br><br><br> &nbsp;&nbsp;&nbsp;&nbsp;
+```
 
 
 # 导航语言切换

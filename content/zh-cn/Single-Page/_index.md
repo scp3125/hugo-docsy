@@ -23,11 +23,12 @@ Hugo 是一个功能强大的静态网站生成器，可以轻松创建内容丰
 hugo new site my-awesome-site
 
 ```
+
+```sh
 ---
 title：“关于”
 date：2025-01-23T12:27:00+01:00
 draft：false
 ---
-
 欢迎来到我的精彩网站！这是“关于”页面。
 ```
