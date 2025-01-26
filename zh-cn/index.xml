@@ -456,6 +456,16 @@ or elsewhere? Link to your examples here.&lt;/p></description></item><item><titl
 &lt;p>Don&amp;rsquo;t forget to link to your own doc repo rather than our example site! Also make sure users can find these guidelines from your doc repo README: either add them there and link to them from this page, add them here and link to them from the README, or include them in both locations.&lt;/p></description></item><item><title>Hugo - Docsy</title><link>https://scp3125.github.io/hugo-docsy/zh-cn/study/hugo/hugo-theme-docsy-configuration/</link><pubDate>Fri, 24 Jan 2025 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/zh-cn/study/hugo/hugo-theme-docsy-configuration/</guid><description>&lt;p>本项目采纳主题&lt;a href="https://www.docsy.dev/">Hugo - Docsy&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://scp3125.github.io/hugo-docsy/zh-cn/">测试网页&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://github.com/scp3125/hugo-docsy">测试库&lt;/a>&lt;/p>
+&lt;h1 id="安装方式">安装方式&lt;a class="td-heading-self-link" href="#%e5%ae%89%e8%a3%85%e6%96%b9%e5%bc%8f" aria-label="Heading self-link">&lt;/a>&lt;/h1>
+&lt;p>目前本主题的安装方式是怎样的？例如远程主题、gem-based，或还有其他方式。为何在本站根目录中没有发现hugo建站相关的程序文件和theme 目录？&lt;/p>
+&lt;p>我们寻找Hugo的配置文件的位置，为了查找静态页面保存的文件目录（ publishDir）的配置，可能有几个文件与该配置相关：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>config/_default/config.toml
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>config/_default/config.yaml
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>config/_default/config.json
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>config/production/config.toml
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>config/production/config.yaml
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>config/production/config.json
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>如果不采用docker方法安装，需要删除它们吧。&lt;/p>
 &lt;h1 id="整站页面配置">整站页面配置&lt;a class="td-heading-self-link" href="#%e6%95%b4%e7%ab%99%e9%a1%b5%e9%9d%a2%e9%85%8d%e7%bd%ae" aria-label="Heading self-link">&lt;/a>&lt;/h1>
 &lt;p>这个页面./community/ 的内容在哪里修改？前端页面有内容，但是打开这个文件，却看不到正文内容，搜索“Goldydocs community”，没找到文件。&lt;/p>
 &lt;p>A：逻辑和搜索框一样，在i18n文件夹下zh-cn.toml 配置覆盖，所有的语言配置在https://github.com/google/docsy/tree/main/i18n&lt;/p>
@@ -479,14 +489,7 @@ menu:
 main:
 - name: 博客
 weight: 50
-url: &amp;ldquo;&lt;a href="https://blog.coolshell.in">https://blog.coolshell.in&lt;/a>&amp;rdquo;&lt;/p>
-&lt;h1 id="文件目录和内容类型">文件目录和内容类型&lt;a class="td-heading-self-link" href="#%e6%96%87%e4%bb%b6%e7%9b%ae%e5%bd%95%e5%92%8c%e5%86%85%e5%ae%b9%e7%b1%bb%e5%9e%8b" aria-label="Heading self-link">&lt;/a>&lt;/h1>
-&lt;ul>
-&lt;li>将原blog 目录./content/zh-cn/blog/ 改为courses 后，其中的文章消失不见了；&lt;/li>
-&lt;/ul>
-&lt;p>A：加一个type: blog 就好了，因为如果文件夹是blog, 默认就是blog类型的，如果是其他类型的，需要加上type: blog&lt;/p>
-&lt;ul>
-&lt;li>参考./content/zh-cn/docs/，打开任何一个页面，左右两侧边栏的目录导航菜单和tag，catelogies都保留的。&lt;p style="color: red;">但是，如果不给头信息中增加“type: blog”，那么./content/zh-cn/courses/ 中的文章页面的左右两侧边栏的目录都消失了，docs/如何做到没有增加内容类型，却可以保留侧边栏的目录呢？&lt;/p></description></item><item><title>Easy documentation with Docsy</title><link>https://scp3125.github.io/hugo-docsy/zh-cn/courses/news/first-post/</link><pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/zh-cn/courses/news/first-post/</guid><description>&lt;p>&lt;strong>This is a typical blog post that includes images.&lt;/strong>&lt;/p>
+url: &amp;ldquo;&lt;a href="https://blog.coolshell.in">https://blog.coolshell.in&lt;/a>&amp;rdquo;&lt;/p></description></item><item><title>Easy documentation with Docsy</title><link>https://scp3125.github.io/hugo-docsy/zh-cn/courses/news/first-post/</link><pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/zh-cn/courses/news/first-post/</guid><description>&lt;p>&lt;strong>This is a typical blog post that includes images.&lt;/strong>&lt;/p>
 &lt;p>The front matter specifies the date of the blog post, its title, a short description that will be displayed on the blog landing page, and its author.&lt;/p>
 &lt;h2 id="including-images">Including images&lt;a class="td-heading-self-link" href="#including-images" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>Here&amp;rsquo;s an image (&lt;code>featured-sunset-get.png&lt;/code>) that includes a byline and a caption.&lt;/p>
