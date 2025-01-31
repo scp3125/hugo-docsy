@@ -1,6 +1,6 @@
 ---
 title: Hugo - Docsy
-description: > 
+description: >
     如何做主题配置，并增加内容?
 date: 2025-01-24
 ---
@@ -66,9 +66,9 @@ A：逻辑和搜索框一样，在i18n文件夹下zh-cn.toml 配置覆盖，所�
 
 
 ##  修改主题模板
-  
+
 这个页面、首页和about页面中 ./content/zh-cn/about/ 的中间大块颜色背景的block 是通过以下这些代码控制的吗？但是这个community页面中的block在哪个文件中控制呢？
-  
+
 A：这个得自己修改主题模板了，创建html文件，示例在layouts/community下面，需要修改html文件改样式
 
 
@@ -80,7 +80,7 @@ about, index 等网页背景图片，是否可以用外链到google drive中的�
 A:可以改，图片语法参考https://www.docsy.dev/docs/adding-content/shortcodes/#blockscover, google drive之类的网盘不清楚，正常没有反盗机制的图片是可以的
 
 # 导航网址外链
-  
+
 例如hugo-docsy/content/zh-cn/blog/_index.md 这个导航直接链接到另外一个博客网址 https://blog.coolshell.in/
 
 不在本站中写博客。
@@ -111,22 +111,22 @@ A：加一个type: blog 就好了，因为如果文件夹是blog, 默认就是bl
 A:因为官方提供了几个默认模板，包含doc、blog、community等，如果你的文件夹名字和模板名字一样，就会默认使用这个模板，如果不一样，就需要在md文件中加上type: blog，这样就会使用blog模板
 
 我们给这个文章./content/zh-cn/courses/releases/_index.md 的头信息中增加了
-```sh 
+```sh
   cascade:  
       type: "blog"
 ```
 因此唯独这篇文章可以显示两边的侧边栏导航菜单，同样在./content/zh-cn/courses/目录下的其他任何文章没有增加“cascade”，它们每一篇文章页面都缺少了侧边栏。当然我们希望，尽量少给每篇文章都做配置，批量给某一个目录下文章都赋予相同的页面样式结构。
 
 
-A1:可以使用如下格式： 
-```sh 
+A1:可以使用如下格式：
+```sh
   cascade:  
       type: "blog"
 ```
 cascade可以让你在一个文件夹下的所有文件都使用该配置，不需要每个文件都写一遍
 如果只是用
 ```sh
- type: "docs" 
+ type: "docs"
 ```
 那么只有这个文件会使用这个配置，其他文件不会使用.
 
@@ -150,7 +150,7 @@ markup:
 
 bug：前端页面显示，头信息和正文之间没有空格，而且第一个#标题丢失了 ？
 
-A: 标题并未丢失，因为样式中却发空行，导致被隐藏，markdown语法加空格和空行可以使用 
+A: 标题并未丢失，因为样式中却发空行，导致被隐藏，markdown语法加空格和空行可以使用
 
 ```sh
 <br><br><br> &nbsp;&nbsp;&nbsp;&nbsp;
@@ -184,14 +184,13 @@ A: 可以在md中，添加配置，例如该文件上面的，cascade中的内�
 
 # 增加blog 或docs页面中的文章分类
 
-在blog下增加一个分类 business，中文/英文版本中都有该分类。 
+在blog下增加一个分类 business，中文/英文版本中都有该分类。
 
 A：目录下需要有_index.md文件，填好里面的内容就能显示
- 
+
 源库中目录分类例如：
 /blog/news/ 分类目录名为 news，/blog/releases/ 分类目录名为 releases
 
 /docs/tutorials/ 分类目录名为 tutorials， /docs/tasks/ponycopters/ 有2-3级目录，分类目录名为 tasks/和 ponycopters/，ponycopters/目录中才是文章。
 
 A:这个按照当前的文件夹结构就行，不需要额外的配置，如果某一层不想有文章，该文件夹下不需要有md文件就行，但是需要有_index.md文件。
-
