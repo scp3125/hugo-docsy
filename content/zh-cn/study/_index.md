@@ -1,9 +1,9 @@
 ---
-title: 如何使用模板站点？
-linkTitle: 学习
-menu: {main: {weight: 50}}
-cascade:
-  type: "docs"
+# title: 如何使用模板站点？
+# linkTitle: 学习
+# menu: {main: {weight: 50}}
+# cascade:
+#  type: "docs"
 ---
 
 {{% pageinfo %}}

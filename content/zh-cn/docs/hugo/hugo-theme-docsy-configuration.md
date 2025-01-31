@@ -12,6 +12,34 @@ date: 2025-01-24
 [测试库](https://github.com/scp3125/hugo-docsy)
 
 
+# [i18n] 
+在每篇文档或博客文章的下方，都有这样的尾巴，请问如何将其去除？是否有保留的必要？
+
+[i18n] feedback_title
+
+[i18n] feedback_question
+
+
+# community 模板
+
+这个模板改造成联系方式，如何将 /zh-cn/community/ 页面的内容也翻译成各自的语言版本？
+
+这些内容在 hugo.yaml 文件中，但是该文件只有一份英文版，例如：
+
+```
+- Email: Discussion and help from your fellow users
+- Twitter: Follow us on Twitter to get the latest news!
+- Stack Overflow: Practical questions and curated answers
+```
+
+
+
+# landing page 模板
+
+是否在源库中有适用于docsy主题的多种landing page可用？因为一些项目需要制作得比较花哨的页面，供用户搜索和点击首次进入。
+
+
+
 # 安装方式
 目前本主题的安装方式是怎样的？例如远程主题、gem-based，或还有其他方式。为何在本站根目录中没有发现hugo建站相关的程序文件和theme 目录？
 

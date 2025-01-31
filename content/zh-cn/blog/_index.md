@@ -1,7 +1,8 @@
 ---
-title: 社区
+title: 博客
 menu: {main: {weight: 40}}
-type: new_community
+cascade:
+    type: blog
 
 # Add blocks of content here to add more sections to the community page
 ---
