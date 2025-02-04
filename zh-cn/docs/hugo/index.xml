@@ -98,6 +98,7 @@
 1、进入仓库中settings中的Actions下的General,将Workflow permissions修改为Read and write permissions&lt;/p></description></item><item><title>Hugo - Docsy</title><link>https://scp3125.github.io/hugo-docsy/zh-cn/docs/hugo/hugo-theme-docsy-configuration/</link><pubDate>Fri, 24 Jan 2025 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/zh-cn/docs/hugo/hugo-theme-docsy-configuration/</guid><description>&lt;p>本项目采纳主题&lt;a href="https://www.docsy.dev/">Hugo-Docsy&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://scp3125.github.io/hugo-docsy/zh-cn/">测试网页&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://github.com/scp3125/hugo-docsy">测试库&lt;/a>&lt;/p>
+&lt;p>新手遇到的一些问题如下，已经回复的答案前加了一个“&lt;strong>A:&lt;/strong>”。&lt;/p>
 &lt;h1 id="i18n">[i18n]&lt;a class="td-heading-self-link" href="#i18n" aria-label="Heading self-link">&lt;/a>&lt;/h1>
 &lt;p>在每篇文档或博客文章的下方，都有这样的尾巴，请问如何将其去除？是否有保留的必要？&lt;/p>
 &lt;p>[i18n] feedback_title&lt;/p>
@@ -109,7 +110,7 @@
 - Twitter: Follow us on Twitter to get the latest news!
 - Stack Overflow: Practical questions and curated answers
 &lt;/code>&lt;/pre>&lt;h1 id="landing-page-模板">landing page 模板&lt;a class="td-heading-self-link" href="#landing-page-%e6%a8%a1%e6%9d%bf" aria-label="Heading self-link">&lt;/a>&lt;/h1>
-&lt;p>是否在源库中有适用于docsy主题的多种landing page可用？因为一些项目需要制作得比较花哨的页面，供用户搜索和点击首次进入。&lt;/p>
+&lt;p>是否在源库或其他渠道找到一些docsy主题的landing page模板可用？我想复制一些不同的模板，因为一些项目需要制作一个比较概括项目的介绍页面，供用户搜索和点击首次进入。&lt;/p>
 &lt;h1 id="安装方式">安装方式&lt;a class="td-heading-self-link" href="#%e5%ae%89%e8%a3%85%e6%96%b9%e5%bc%8f" aria-label="Heading self-link">&lt;/a>&lt;/h1>
 &lt;p>目前本主题的安装方式是怎样的？例如远程主题、gem-based，或还有其他方式。为何在本站根目录中没有发现hugo建站相关的程序文件和theme 目录？&lt;/p>
 &lt;p>我们寻找Hugo的配置文件的位置，为了查找静态页面所保存的文件目录&lt;code>publishDir=public&lt;/code>的配置，可能有几个文件与该配置相关：&lt;/p>
