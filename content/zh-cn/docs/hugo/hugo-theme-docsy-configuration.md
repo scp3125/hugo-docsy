@@ -21,7 +21,7 @@ date: 2025-01-24
 
 通过bash脚本同步？还是别的什么方案？
 
-
+A：提交代码就自动同步了，有github action执行生成静态页面的操作，然后部署
 
 # [i18n]
 在每篇文档或博客文章的下方，都有这样的尾巴，请问如何将其去除？是否有保留的必要？
@@ -29,6 +29,12 @@ date: 2025-01-24
 [i18n] feedback_title
 
 [i18n] feedback_question
+
+A:这个显示错误，需要在i18n文件夹下的zh-cn.toml文件中修改
+想去除的话，将hugo.yaml中的值改成false就行
+feedback:
+  enable: false
+我个人觉得倒是没什么必要保留
 
 
 # community 模板
@@ -42,14 +48,13 @@ date: 2025-01-24
 - Twitter: Follow us on Twitter to get the latest news!
 - Stack Overflow: Practical questions and curated answers
 ```
-
-
+A:这个确实没看到官方提供多语言翻译的方式
 
 # landing page 模板
 
 是否在源库或其他渠道找到一些docsy主题的landing page模板可用？我想复制一些不同的模板，因为一些项目需要制作一个比较概括项目的介绍页面，供用户搜索和点击首次进入。
 
-
+A：官方的源库是没提供，其他渠道只能去github上去搜索一下其他人的模板了，不一定有合适的，可能需要自己写一个
 
 # 安装方式
 目前本主题的安装方式是怎样的？例如远程主题、gem-based，或还有其他方式。为何在本站根目录中没有发现hugo建站相关的程序文件和theme 目录？
@@ -66,6 +71,10 @@ config/production/config.json
 ```
 
 如果不采用docker方法安装，需要删除docker相关文件吧，包括哪些文件清单？
+
+A:是通过Hugo Modules的方式安装的
+  配置文件就是hugo.yaml，没必要去改静态页面所保存的文件目录,部署是自动的，不需要手动操作
+  docker文件可以删除，不影响使用，docker-compose.yaml和Dockerfile
 
 
 # 整站页面配置
