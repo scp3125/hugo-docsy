@@ -492,28 +492,25 @@ or elsewhere? Link to your examples here.&lt;/p></description></item><item><titl
 &lt;h1 id="静态页面文件同步方案">静态页面文件同步方案&lt;a class="td-heading-self-link" href="#%e9%9d%99%e6%80%81%e9%a1%b5%e9%9d%a2%e6%96%87%e4%bb%b6%e5%90%8c%e6%ad%a5%e6%96%b9%e6%a1%88" aria-label="Heading self-link">&lt;/a>&lt;/h1>
 &lt;p>每次更新content文章，public目录中生成了新的静态页面，需要将新的静态页面文件同步到gh-pages分支。&lt;/p>
 &lt;p>通过bash脚本同步？还是别的什么方案？&lt;/p>
+&lt;p>A：提交代码就自动同步了，有github action执行生成静态页面的操作，然后部署&lt;/p>
 &lt;h1 id="i18n">[i18n]&lt;a class="td-heading-self-link" href="#i18n" aria-label="Heading self-link">&lt;/a>&lt;/h1>
 &lt;p>在每篇文档或博客文章的下方，都有这样的尾巴，请问如何将其去除？是否有保留的必要？&lt;/p>
 &lt;p>[i18n] feedback_title&lt;/p>
 &lt;p>[i18n] feedback_question&lt;/p>
+&lt;p>A:这个显示错误，需要在i18n文件夹下的zh-cn.toml文件中修改
+想去除的话，将hugo.yaml中的值改成false就行
+feedback:
+enable: false
+我个人觉得倒是没什么必要保留&lt;/p>
 &lt;h1 id="community-模板">community 模板&lt;a class="td-heading-self-link" href="#community-%e6%a8%a1%e6%9d%bf" aria-label="Heading self-link">&lt;/a>&lt;/h1>
 &lt;p>这个模板改造成联系方式，如何将 /zh-cn/community/ 页面的内容也翻译成各自的语言版本？&lt;/p>
 &lt;p>这些内容在 hugo.yaml 文件中，但是该文件只有一份英文版，例如：&lt;/p>
 &lt;pre tabindex="0">&lt;code>- Email: Discussion and help from your fellow users
 - Twitter: Follow us on Twitter to get the latest news!
 - Stack Overflow: Practical questions and curated answers
-&lt;/code>&lt;/pre>&lt;h1 id="landing-page-模板">landing page 模板&lt;a class="td-heading-self-link" href="#landing-page-%e6%a8%a1%e6%9d%bf" aria-label="Heading self-link">&lt;/a>&lt;/h1>
-&lt;p>是否在源库或其他渠道找到一些docsy主题的landing page模板可用？我想复制一些不同的模板，因为一些项目需要制作一个比较概括项目的介绍页面，供用户搜索和点击首次进入。&lt;/p>
-&lt;h1 id="安装方式">安装方式&lt;a class="td-heading-self-link" href="#%e5%ae%89%e8%a3%85%e6%96%b9%e5%bc%8f" aria-label="Heading self-link">&lt;/a>&lt;/h1>
-&lt;p>目前本主题的安装方式是怎样的？例如远程主题、gem-based，或还有其他方式。为何在本站根目录中没有发现hugo建站相关的程序文件和theme 目录？&lt;/p>
-&lt;p>我们寻找Hugo的配置文件的位置，为了查找静态页面所保存的文件目录&lt;code>publishDir=public&lt;/code>的配置，可能有几个文件与该配置相关：&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>config/_default/config.toml
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>config/_default/config.yaml
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>config/_default/config.json
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>config/production/config.toml
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>config/production/config.yaml
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>config/production/config.json
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>如果不采用docker方法安装，需要删除docker相关文件吧，包括哪些文件清单？&lt;/p></description></item><item><title>Easy documentation with Docsy</title><link>https://scp3125.github.io/hugo-docsy/zh-cn/project/agri/first-post/</link><pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/zh-cn/project/agri/first-post/</guid><description>&lt;p>&lt;strong>This is a typical blog post that includes images.&lt;/strong>&lt;/p>
+&lt;/code>&lt;/pre>&lt;p>A:这个确实没看到官方提供多语言翻译的方式&lt;/p>
+&lt;h1 id="landing-page-模板">landing page 模板&lt;a class="td-heading-self-link" href="#landing-page-%e6%a8%a1%e6%9d%bf" aria-label="Heading self-link">&lt;/a>&lt;/h1>
+&lt;p>是否在源库或其他渠道找到一些docsy主题的landing page模板可用？我想复制一些不同的模板，因为一些项目需要制作一个比较概括项目的介绍页面，供用户搜索和点击首次进入。&lt;/p></description></item><item><title>Easy documentation with Docsy</title><link>https://scp3125.github.io/hugo-docsy/zh-cn/project/agri/first-post/</link><pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate><guid>https://scp3125.github.io/hugo-docsy/zh-cn/project/agri/first-post/</guid><description>&lt;p>&lt;strong>This is a typical blog post that includes images.&lt;/strong>&lt;/p>
 &lt;p>The front matter specifies the date of the blog post, its title, a short description that will be displayed on the blog landing page, and its author.&lt;/p>
 &lt;h2 id="including-images">Including images&lt;a class="td-heading-self-link" href="#including-images" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>Here&amp;rsquo;s an image (&lt;code>featured-sunset-get.png&lt;/code>) that includes a byline and a caption.&lt;/p>
