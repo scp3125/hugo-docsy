@@ -4,6 +4,8 @@ description: >
   我们将源库中带有.github/目录的文件传到测试库中，发现部署错误。
 date: 2017-01-05
 weight: 4
+cascade:
+  github: true
 ---
 
 [github测试库](https://coolshell-in.github.io/hugo-docsy/)
