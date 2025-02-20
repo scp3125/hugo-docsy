@@ -14,7 +14,6 @@ date: 2025-01-24
 新手遇到的一些问题如下，已经回复的答案前加了一个“**A:**”。
 
 
-
 # 静态页面文件同步方案
 
 每次更新content文章，public目录中生成了新的静态页面，需要将新的静态页面文件同步到gh-pages分支。
@@ -185,22 +184,59 @@ A:修改配置文件，语言。
 
 
 
-# 文档页面上github链接
+# 页面github库链接和页面信息
 
-- 如何去除页面右上方的github库相关信息？这些是多余的内容，具体如下：
+## 如何修改这些信息？具体如下：
 
 - View page source
 - Edit this page
-- Create child page
+- Create child page，
 - Create documentation issue
 - Create project issue
 - Print entire section
 
-A：修改配置解决了
+A：修改配置，参考Docxy文档：[库链接和页面其他信息](https://www.docsy.dev/docs/adding-content/repository-links/)
+
+## 如何被自动翻译的？
+
+以上页面相关信息被翻译成对应的中文如下：
+
+- 查看页面源码
+- 编辑此页
+- 添加子页面
+- 提交文档问题
+- 提交项目问题
+- 打印整个部分
+
+我搜遍了整个库的文件，没有找到被翻译的文本存放的位置，在i18n/zh-cn.toml 中也没找到。
+
+
+## 变量名
+
+以上页面github信息 和hugo.yaml 上的变量名对应关系，是这样的吗 ？
+
+- 查看页面源码， github_repo
+- 编辑此页，github_project_repo
+- 添加子页面
+- 提交文档问题
+- 提交项目问题
+- 打印整个部分
+
+我们现在把hugo.yaml中的相关配置改为 测试库地址 https://github.com/scp3125/hugo-docsy
+
+例如 
+```yaml
+github_repo: https://github.com/scp3125/
+github_project_repo: https://github.com/scp3125/hugo-docsy
+# 我仅仅能找到2个github 库相关的变量名，其他4项在hugo.yaml上我找不到。
+
+```
+
 
 **如果我要把以上github連結内容在某些页面中再加回来？应该如何操作？它是批量增加到某一个类的文档中吗？例如在docs中增加，但是我可以在blog中将其去除？**
 
 A: 可以在md中，添加配置，例如该文件上面的，cascade中的内容，可以参考这个配置，这个配置是针对单个文件的，如果要批量增加到某一个类的文档中，可以在该类的_index.md中添加配置
+
 
 # 增加blog 或docs页面中的文章分类
 
