@@ -131,10 +131,10 @@ params:
   github_repo: https://github.com/scp3125/hugo-docsy
 
   # # An optional link to a related project repo. For example, the sibling repository where your product code lives.
-  github_project_repo: https://github.com/scp3125/hugo-docsy
+  # github_project_repo: https://github.com/scp3125/hugo-docsy
 
   # # Specify a value here if your content directory is not in your repo's root directory
-  github_subdir: ""
+  # github_subdir: ""
 
   # # Uncomment this if your GitHub repo does not have "main" as the default branch,
   # # or specify a new value if you want to reference another branch in your GitHub links
